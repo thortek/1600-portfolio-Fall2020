@@ -1,0 +1,121 @@
+* {
+    --large-text: #cdeffe;
+  }
+  
+  body {
+    background-color: #13243e;
+    margin: 20px;
+    font-family: sans-serif;
+  }
+  
+  main {
+    width: 960px;
+    margin: 0 auto;
+    /*   border: 1px solid yellow; */
+  }
+  
+  h1,
+  header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-pic {
+    height: 90px;
+  }
+  
+  .profile-pic {
+    height: 195px;
+  }
+  
+  #info {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .bio {
+    width: 100%;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #choose-list {
+    background-color: #545353;
+    padding: 12px;
+  }
+  
+  #name-date {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #name-date {
+    color: var(--large-text);
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  #tech {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #cdeffe;
+    margin: 0;
+  }
+  
+  h4 {
+    color: #cdeffe;
+    margin: 5px 0 12px 0;
+  }
+  
+  .excited {
+    background-color: #545353;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .excited p {
+    color: #ccc;
+  }
+  
+  time {
+    color: #fff;
+    font: 1.5em sans-serif;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 15px;
+    color: #ccc;
+  }
+  
+  figure {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  figure > img {
+    max-height: 150px;
+    max-width: 180px;
+  }
+  
+  figcaption {
+    background-color: rgba(10, 10, 10, 0.5);
+    color: #ccc;
+    max-width: 180px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+  }
+  
+  footer {
+    color: #fff;
+    text-align: center;
+  }
+  
