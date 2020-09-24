@@ -1,9 +1,29 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
 
 nav {
+    display: flex;
+    justify-content: flex-end;
     background-color: red;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.nav-list a:hover {
+    background: blue;
+  }
+
+.nav-list {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
 }
 
 #welcome-section {
