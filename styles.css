@@ -66,7 +66,7 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
     width: 100%;
     max-width: 1280px;
@@ -74,9 +74,27 @@ body {
     margin-bottom: 6rem;
   }
 
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: center;
+  }
+
+  .project-title {
+    font-size: x-large;
+    text-align: center;
+  }
+
   a {
     text-decoration: none;
     color: #f0f0f0;
+  }
+
+  a img {
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
   }
 
   .contact-section {
@@ -129,15 +147,3 @@ body {
       font-size: small;
     }
   }
-
-/*   .project {
-    background: #ccc;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-  } */
-
-/*   .project-image {
-    height: calc(100% - 6.8rem); 
-    width: 100%;
-    object-fit: cover;
-  } */
