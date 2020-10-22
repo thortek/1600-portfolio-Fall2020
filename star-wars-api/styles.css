@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 1rem;
+}
+
+figcaption {
+    background-color: aqua;
+    text-align: center;
+}

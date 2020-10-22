@@ -1,12 +1,31 @@
 import { films } from './data/films.js'
 import { people } from './data/people.js'
 
-//console.log(people.length)
-
-//console.log(films[0])
+const main = document.querySelector('main')
 
 
-people.forEach(person => {
-    let newParagraph = document.body.appendChild(document.createElement('p'))
-    newParagraph.textContent = person.name
-})
+
+for (let step = 0; step < 7; step++) {
+    let figure = document.createElement('figure')
+    let figImg = document.createElement('img')
+    figImg.src = `https://starwars-visualguide.com/assets/img/films/${step + 1}.jpg` 
+    let figCaption = document.createElement('figcaption')
+    figCaption.textContent = films[step].title
+
+    figure.appendChild(figImg)
+    figure.appendChild(figCaption)
+
+    main.appendChild(figure)
+  }
+
+/* for (const film of films) {
+    let newImg = document.createElement('img') // new image instance
+    newImg.src = 'https://starwars-visualguide.com/assets/img/films/2.jpg' // set the source of it or nothing will show
+    // now append the image to the DOM somehow
+    main.appendChild(newImg)
+    console.log(film.title)
+  } */
+  
+
+
+//https://starwars-visualguide.com/assets/img/characters/2.jpg
