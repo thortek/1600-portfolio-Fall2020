@@ -1,0 +1,19 @@
+:root {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
