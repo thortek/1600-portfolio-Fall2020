@@ -11,6 +11,11 @@
     margin: 8rem 5rem 0 10rem;
 }
 
+img {
+    position: relative;
+    z-index: 1000;
+}
+
 header, footer {
     display: flex;
     justify-content: center;
