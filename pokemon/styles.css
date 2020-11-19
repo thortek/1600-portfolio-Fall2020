@@ -16,3 +16,32 @@
     margin: 10px;
     perspective: 600px;
   }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .card__face--front {
+    background: red;
+  }
+  
+  .card__face--back {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
